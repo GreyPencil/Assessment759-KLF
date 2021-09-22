@@ -58,8 +58,8 @@ const menuList = [
   },
 
   {
-    title: 'Orders',
-    key: '/order',
+    title: 'Contact Us',
+    key: '/contact',
     icon: 'windows',
   },
 ]

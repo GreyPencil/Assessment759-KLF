@@ -48,7 +48,7 @@ class Admin extends Component {
                 <Route path='/charts/bar' component={Bar}/>
                 <Route path='/charts/line' component={Line}/>
                 <Route path='/charts/pie' component={Pie}/>
-                <Route path="/order" component={Order}/>
+                <Route path="/contact" component={Order}/>
                 <Route component={NotFound}/> {/*上面没有一个匹配, 直接显示*/}
               </Switch>
             </Content>
