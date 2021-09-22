@@ -9,6 +9,7 @@ Home路由组件
 export default function Order() {
     function sendEmail(e){
         e.preventDefault();
+
         emailjs.sendForm(
             'service_nws18ir',
             'template_jcadrbl',

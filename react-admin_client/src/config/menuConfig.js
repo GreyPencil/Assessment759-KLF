@@ -33,6 +33,11 @@ const menuList = [
     key: '/role',
     icon: 'safety',
   },
+  {
+    title: 'Report',
+    key: '/report',
+    icon: 'file',
+  },
 
   {
     title: 'Charts',

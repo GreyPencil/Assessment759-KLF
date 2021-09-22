@@ -16,6 +16,7 @@ import Line from '../charts/line'
 import Pie from '../charts/pie'
 import NotFound from '../not-found/not-found'
 import Order from '../order/order'
+import Report from '../report/report'
 
 const { Footer, Sider, Content } = Layout
 
@@ -49,6 +50,7 @@ class Admin extends Component {
                 <Route path='/charts/line' component={Line}/>
                 <Route path='/charts/pie' component={Pie}/>
                 <Route path="/contact" component={Order}/>
+                <Route path="/report" component={Report}/>
                 <Route component={NotFound}/> {/*上面没有一个匹配, 直接显示*/}
               </Switch>
             </Content>
