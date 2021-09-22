@@ -112,8 +112,8 @@ export const reqWeather = (city) => {
       // console.log(url)
       console.log('jsonp()', err, data)
       if(!err && data.status === '1'){
-        const {temperature, weather} = data.lives[0]
-        resolve({temperature, weather})
+        const {temperature} = data.lives[0]
+        resolve({temperature})
       }else{
         message.error('Failed to get weather info')
       }

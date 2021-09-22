@@ -32,8 +32,8 @@ class Header extends Component {
 
   getWeather = async () => {
     //调用接口请求函数 异步获取数据
-    const {weather, temperature} = await reqWeather('110101')
-    this.setState({weather, temperature})
+    const {temperature} = await reqWeather('110101')
+    this.setState({ temperature})
   }
 
   getTitle = () => {
