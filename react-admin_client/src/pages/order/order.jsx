@@ -1,7 +1,7 @@
 import React from 'react'
 import './order.less'
 import emailjs from 'emailjs-com'
-import { Modal, Button, Space } from 'antd';
+import { Modal} from 'antd';
 
 /*
 Home路由组件
