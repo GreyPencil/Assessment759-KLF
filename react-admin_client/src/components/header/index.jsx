@@ -120,9 +120,10 @@ const title = this.props.headTitle
               {title}
             </div>
             <div className="header-bottom-right">
-              <span>  {currentTime}  </span>
+              <span>Date:  {currentTime}  </span>
               <span>  {weather}  </span>
               {/*<img src="" alt="weather"/>*/}
+              <span>City: Montreal </span>
               <span>  {temperature}℃</span>
 
             </div>
