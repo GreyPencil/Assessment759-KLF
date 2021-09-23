@@ -11,10 +11,11 @@ CREATE TABLE `activity`(
 CREATE TABLE `user_report` (
 	`user_id` INT,
 	`activity_id` INT,
+	`user_name` CHAR(20),
+	`activity_name` CHAR(20),
 	`first_occurrence` TIMESTAMP,
 	`last_occurrence` TIMESTAMP,
 	`amount` INT DEFAULT 0,
 	FOREIGN KEY(user_id) REFERENCES `user`(user_id),
 	FOREIGN KEY(activity_id) REFERENCES `activity`(activity_id)
-	
 );
