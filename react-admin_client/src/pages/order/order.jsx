@@ -3,9 +3,6 @@ import './order.less'
 import emailjs from 'emailjs-com'
 import { Modal} from 'antd';
 
-/*
-Home路由组件
- */
 export default function Order() {
     function sendEmail(e){
         e.preventDefault();
