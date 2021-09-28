@@ -66,6 +66,7 @@ const menuList = [
     title: 'Contact Us',
     key: '/contact',
     icon: 'windows',
+    isPublic: true,
   },
 ]
 
